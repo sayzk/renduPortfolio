@@ -1,12 +1,248 @@
-*{
+
+* {
+
     text-transform: uppercase;
     font-family: "DM Sans", sans-serif;
-    /* background-color: black; */
-    color: white;
 }
-body{
+
+#white {
+    background-color: white;
+}
+
+
+.padding {
+    padding: 100px;
+}
+
+
+
+header {
+
     background-color: black;
-}
-.container{
+    color: white;
 
 }
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Colonne gauche */
+.d-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.d-column h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.d-column h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.d-column p {
+    font-size: 18px;
+    width: 60%;
+}
+
+.d-column a {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 18px 40px;
+    border: 1px solid white;
+    width: fit-content;
+}
+
+/* Image à droite */
+.hero-left {
+    width: 31%;
+    height: auto;
+}
+
+
+
+
+
+/* ---------------- SERVICES ---------------- */
+
+.container > h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* ➜ Centre tout, dont l’image */
+}
+
+ .cardcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.card-description {
+    font-size: 16px;
+    width: 90%;
+    line-height: 22px;
+}
+
+.container img {
+    width: 55%;
+    margin-right: 30px;
+}
+
+/* ---------------- LOGOS MARQUES ---------------- */
+
+
+/* ---------------- RÉALISATIONS ---------------- */
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.wrapper div {
+    width: 30%;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.wrapper h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.wrapper p {
+    font-size: 16px;
+    line-height: 22px;
+    width: 95%;
+}
+
+/* ---------------- TÉMOIGNAGES ---------------- */
+
+section .wrapper h3 {
+    font-size: 18px;
+    line-height: 26px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+section .wrapper>div>div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section .wrapper>div>div img {
+    width: 70px;
+    height: 70px;
+    background-color: #d9d9d9;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+footer input {
+    width: 280px;
+    padding: 12px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+}
+
+footer a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-weight: 700;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+*/
